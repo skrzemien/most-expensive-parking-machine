@@ -1,4 +1,4 @@
-let cost: number = 0.035;
+let cost: number = 0.00035;
 let start:number;
 let abc = function(){
     let button = document.getElementById("Button1");
@@ -14,7 +14,7 @@ let abc = function(){
 
         let costt = document.getElementById("cost");
         
-        costt.innerText = "koszt " + price.toFixed(2) + " groszy";
+        costt.innerText = "Cost " + price.toFixed(2) + " PLN";
         button.innerText = "Start"
     }
     

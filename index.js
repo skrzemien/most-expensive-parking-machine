@@ -1,4 +1,4 @@
-var cost = 0.035;
+var cost = 0.00035;
 var start;
 var abc = function () {
     var button = document.getElementById("Button1");
@@ -13,7 +13,7 @@ var abc = function () {
         var price = (stop_1 - start) * cost;
         console.log(price);
         var costt = document.getElementById("cost");
-        costt.innerText = "koszt " + price.toFixed(2) + " groszy";
+        costt.innerText = "Cost " + price.toFixed(2) + " PLN";
         button.innerText = "Start";
     }
 };
